@@ -1,0 +1,14 @@
+.vscode
+.DS_Store
+
+# Debugger files
+debug*
+
+# Packages
+vendor
+
+# Build
+target
+
+# Idea
+.idea
