@@ -21,3 +21,4 @@ RUN echo 'export PATH=$PATH:/opt/go/bin' > /etc/profile.d/go.sh
 
 RUN echo "Installation completed"
 
+EXPOSE 8000 8080 9090
