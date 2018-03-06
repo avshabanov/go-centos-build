@@ -4,8 +4,8 @@
 # Remove:  rpm -ev progname
 
 PACKAGE=foo-cli
-VERSION=1.0
-RELEASE=1
+VERSION=$(shell cat rpm/VERSION)
+RELEASE=$(shell cat rpm/RELEASE)
 ARCH=x86_64
 SPEC=$(PACKAGE).spec
 

@@ -1,7 +1,7 @@
 
 PACKAGE=greeter
-VERSION=1.0
-RELEASE=1
+VERSION=$(cat rpm/VERSION)
+RELEASE=$(cat rpm/RELEASE)
 ARCH=x86_64
 SPEC=$(PACKAGE).spec
 
