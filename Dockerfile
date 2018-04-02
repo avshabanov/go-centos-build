@@ -2,7 +2,12 @@ FROM centos:7
 
 RUN echo "Install build environment software..."
 
+# TODO: install gcc and related packages
+
+# Utilities
 RUN yum install -y screen tcpdump make
+# GCC
+RUN yum install -y gcc
 # RPM development
 RUN yum install -y rpmdevtools rpm-build
 RUN yum clean all
